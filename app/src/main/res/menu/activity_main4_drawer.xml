@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/check_in"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/check_in" />
+        <item
+            android:id="@+id/crm"
+            android:icon="@drawable/ic_storage_black_24dp"
+            android:title="@string/client_data_crm" />
+        <item
+            android:id="@+id/brochure"
+            android:icon="@drawable/ic_live_tv_black_24dp"
+            android:title="@string/brochure" />
+
+    </group>
+
+
+    <item android:title="@string/reports">
+        <menu>
+            <item
+                android:id="@+id/attendance_reports"
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:title="@string/attendance_reports" />
+
+            <item
+                android:id="@+id/checkin_reports"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="@string/checkin_out_reports" />
+
+            <item
+                android:id="@+id/Dsr_reports"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="@string/dsr_reports" />
+
+            <item
+                android:id="@+id/expenses_reports"
+                android:icon="@drawable/ic_local_atm_black_24dp"
+                android:title="@string/expenses_reports" />
+
+            <item
+                android:id="@+id/tracking"
+                android:icon="@drawable/ic_add_location_black_24dp"
+                android:title="@string/tracking" />
+
+
+        </menu>
+    </item>
+
+  <item
+      android:title="Social">
+
+      <menu>
+
+<item
+    android:title="Share"
+    android:id="@+id/share"
+    android:icon="@drawable/ic_share_black_24dp"
+    />
+
+          <item
+              android:title="Invite"
+              android:id="@+id/invite"
+              android:icon="@drawable/ic_person_add_black_24dp"
+              />
+
+
+      </menu>
+
+  </item>
+
+
+
+
+
+
+</menu>

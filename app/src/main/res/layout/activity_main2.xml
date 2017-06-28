@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jagjitsingh.demo.Main2Activity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ekj"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/o">
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email Or Phone No"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/E1"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/E2"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_alignBottom="@+id/o"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_lock_black_24dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="25dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/uio"
+        android:id="@+id/imageView"
+        android:layout_marginTop="69dp"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Forgot Password.?"
+        android:id="@+id/button3"
+        android:gravity="center"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:contextClickable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Register with DEVIL"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginStart="10dp"
+        android:id="@+id/button2"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cc"
+        android:id="@+id/button"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="25dp"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/login_button"
+        android:layout_centerHorizontal="true" />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
